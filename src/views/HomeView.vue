@@ -114,31 +114,12 @@ export default {
       this.currentComponent = component === 'goToInsight' ? insight : advance;
       this.selectedComponent = component === 'goToInsight' ? 'insight':'advanced'
       
-    //  this.buttons.forEach(button => {
-     //   button.active = button.text === b.text})}
-     
-     // if (!this.isActive) {
-       // return this.isActive = !this.isActive;
-
-     // }
-     
-      //this.isActive ===  insight || advance;
-
-    
-    /*activate (b) {
-      this.buttons.forEach(button => {
-        button.active = button.text === b.text
-
-      })}*/
- // }
+  
 }}}
 </script>
 
 <style>
 
-.fa-angle-down{
-    
-  }
 
 button {
     background-color: white; /* Set the color for the active state */
